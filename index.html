@@ -3,45 +3,71 @@
   <head>
    <meta charset="UTF-8">
    <title>foton-tech.pl</title>
+   <link rel="shortcut icon" href="photo/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="css/style.css">
   </head>
+
+
   <body>
-  <header>
-     <address>Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
-    
-    <p><a href="mailto:dorotapawezka@gmail.com">dorotapawezka@gmail.com</a></p>
-
-    <a href="tel:+48695716531">+48695716531</a>
-
+  <header class="page-header" >
+    <div class="header-wrapper header-wrapper-black">
+     <address class="address">Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
+     <ul class="contact-list">
+      <li class="contact-list-item">
+    <p><a href="mailto:dorotapawezka@gmail.com" class="contact-link">dorotapawezka@gmail.com</a></p>
+    </li>
+    <li>
+    <a href="tel:+48695716531" class="contact-link">+48695716531</a>
+     </li>
+    </ul>
+  </div>
+  <div class="header-wrapper">
       <a href="index.html" class="logo">
-        <img src="photoproject/Logo1.png" height="34" width="131" alt="logo" />
+        <img src="photo/logo.png" height="34" width="131" alt="logo" />
       </a>
+    </div>
 
-    <nav>
-   <ul>
-      <li>Strona główna</li>
-      <li>O nas</li>
-      <li>Projekty</li>
-      <li>Instalacja</li>
-      <li>Kontakt</li>
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+       <a class="navigation-link current" href="#">Strona główna</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">O nas</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">Projekty</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">Instalacja</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">Kontakt</a>
+      </li>
   </ul>
     </nav>
-    <h2>Panele Fotowoltaiczne</h2>
    </header>
     
       
         
       
-      <main><section>
-      <p>Kompleksowe usługi w zakresie montażu i podłączenia paneli słonecznych.</p>
+   <main class="page-main">
+     <section class="welcome-section">
+          <div class="section-wrapper">
+    <h2 class="main-title">Panele Fotowoltaiczne</h2>
+
+      <p class="main-text">Kompleksowe usługi w zakresie montażu i podłączenia paneli <br>
+          słonecznych.</p>
     
     
-        <p style="text-align: left"><button>Obliczyć koszt</button></p>
+        <button class="main-button">Obliczyć koszt</button>
 
-          
-            <h2>Ty i twói dom</h2>
-
-            <img src="photoproject/DOM.jpg" alt="Dom">
-
+          </section>
+          <section class="section">
+            <div class="section-wrapper">
+            <h2 class="title">Ty i twói dom</h2>
+               <img class="content-image" src="photo/domik.jpg" alt="Dom">
+             <p class="info-text">
               Zrównoważony rozwój zaczyna się w domu od Ciebie i Twojej rodziny. <br>
               Codzienne dokonywane przez ciebie wybory - zarówno duże, jak i małe <br>
               mają ogromny wpływ na środowisko.<br>
@@ -51,25 +77,43 @@
               
              <p>Wszyscy jesteśmy odpowiedzialni za stworzenie zrównoważonego <br>
               świata i istnieje tak wiele sposobów, aby to zrobić.</p>
-            </section></main>
+            </section>
+          </main>
           
         
     
-      <footer>
-       <div>
-          <p>Strona główna</p>
-          <p>O nas</p>
-          <p>Projekty</p>
-          <p>Instalacja</p>
-          <p>Kontakt</p>
+      <footer class="page-footer">
+        <div class="footer-wrapper footer-wrapper black">
+          <a href="index.html" class="logo">
+            <img src="photo/logo.png" height="34" width="131" alt="logo" />
+          </a>
         </div>
+        <nav class="foooter-navigation">
+          <ul class="footer navigation-list">
+            <li class="footer navigation-item">
+             <a class="footer navigation-link current" href="#">Strona główna</a>
+            </li>
+            <li class="footer navigation-item">
+             <a class="footer navigation-link" href="#">O nas</a>
+            </li>
+            <li class="footer navigation-item">
+             <a class="footer navigation-link" href="#">Projekty</a>
+            </li>
+            <li class="footer navigation-item">
+             <a class="footer navigation-link" href="#">Instalacja</a>
+            </li>
+            <li class="footer navigation-item">
+             <a class="footer navigation-link" href="#">Kontakt</a>
+            </li>
+        </ul>
+          </nav>
         
-        <button>Obliczyć koszt</button>
+        <button class="footer-button">Oddzwoń</button>
 
         <div class="wrapper-bottom">
-        <a href="">Polityka prywatności</a>
-         <a href="">Ochrona danych osobowych</a>
-        </div>
+        <a href="#" class="footer-link">Polityka prywatności</a>
+         <a href="#" class="footer-link">Ochrona danych osobowych</a>
+        </div class="footer-wrapper">
       </footer>
 
      <div>
