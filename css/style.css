@@ -9,6 +9,21 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/gilroy-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: Gilroy;
+    src: url(/fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+.page-header{
+    background: #FFFFFF;
+}
 
 .header-wrapper-black {
     background-color: #20242D;
@@ -118,7 +133,7 @@
     color: #FFFFFF;
 }
 .footer.navigation-link.current{
-    font-family: Gilroy;
+    font-family: Gilroy sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -126,7 +141,7 @@
     color: #FF7129;
 }
 .footer-button{
-    font-family: Gilroy;
+    font-family: Gilroy sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -136,7 +151,7 @@
     border: 1px solid #FF7129;
 }
 .footer-link{
-    font-family: Gilroy;
+    font-family: Gilroy sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -145,4 +160,317 @@
 }
 .page-footer{
     background: #20242D;
+}
+
+.ul-kit.page-header{
+    background: #FFFFFF;
+}
+
+.header.button{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#FF7129;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+}
+.header.button.two{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #D35E22;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+}
+
+.background.header{
+    background: #FF7129;
+}
+
+.link-button{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FF7129;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+}
+.link-button.two{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #20242D;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+}
+.placeholder{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+.text-main{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7E85;
+}
+.error{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F00808;
+}
+.select-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF7129;
+}
+.selected-value{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+.input-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+label.place-text{
+    border: 1px solid #FF7129;
+}
+.select-list{
+    border: 1px solid #FF7129;
+}
+.main-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7E85;
+}
+h2.welcome-title{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: white;
+}
+p.welcome-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+.welcome-section-section{
+    background: radial-gradient(50% 179.69% at 50% 50%,
+     rgba(32, 36, 45, 0) 0%, #20242D 100%),
+     rgba(32, 36, 45, 0.3);
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+}
+.info-text-projecty{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+.text-projecty{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.text-projecty-{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7E85;
+}
+h2.text-instalacja{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #20242D;
+}
+p.narrator-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+.gui-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    background-color: #F2F2F2;
+}
+.letter{
+    color: #FF7129;
+}
+.r-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+}
+.conclusions-text{
+    position: absolute;
+    width: 700px;
+    height: 236px;
+    left: 450px;
+    top: 4966px;
+    background: #F2F2F2;
+}
+.background-text{
+    background: #F2F2F2
+}
+.top-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+.middle-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+.text-list{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;
+}
+.price-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+p.div.text-list{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.div-main-bc{
+    background: #FF7129;
+}
+p.div.top-text{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.div.button-link{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF7129;
+    border: none;
+}
+button.button-link{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FF7129;
+    background: #FFFFFF;
+    border: none;
+}
+.main-button-link{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF7129;
+    border: none;
+}
+.main-list{
+    background: #FF7129;
+}
+h2.top-text-top{
+    font-family: Gilroy sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+label.middle-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;
 }
