@@ -3,57 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontakty</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <address>Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
-        
-    
-        <p><a href="mailto:dorotapawezka@gmail.com">dorotapawezka@gmail.com</a></p>
-    
-        <a href="tel:+48695716531">+48695716531</a>
-    
-          <a href="index.html" class="logo">
-            <img src="photoproject/Logo1.png" height="34" width="131" alt="logo" />
-          </a>
-          <nav>
-            <ul>
-               <li>O nas</li>
-               <li>Projekty</li>
-               <li>Instalacja</li>
-               <li>Kontakt</li>
-             </ul>
-               </nav>
-                   <h2>Kontakt</h2>
-                 </header>
+  <header class="page-header" >
+    <div class="header-wrapper header-wrapper-black">
+     <address class="address">Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
+     <ul class="contact-list">
+      <li class="contact-list-item">
+    <p><a href="mailto:dorotapawezka@gmail.com" class="contact-link">dorotapawezka@gmail.com</a></p>
+    </li>
+    <li>
+    <a href="tel:+48695716531" class="contact-link">+48695716531</a>
+     </li>
+    </ul>
+  </div>
+  <div class="header-wrapper">
+      <a href="index.html" class="logo">
+        <img src="photo/logo.png" height="34" width="131" alt="logo" />
+      </a>
+    </div>
 
-                <img src="photoproject/map.svg" alt="map">
-
+  <nav class="navigation">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+       <a class="navigation-link current" href="#">Strona główna</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">O nas</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">Projekty</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">Instalacja</a>
+      </li>
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">Kontakt</a>
+      </li>
+  </ul>
+    </nav>
+   </header>
                  <main><section>
-                  <p>Adres</p>
-                     <address>Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
- 
-                  <p>E-mail</p>
-                    <p><a href="dorotapawezka@gmail.com">dorotapawezka@gmail.com</a></p>
-                    
-                  <p>Telefon</p>
-                     <p><a href="tel:+48695716531">+48695716531</a></p>
-                    </section></main>       
-               <footer>
-                <div>
-                   <p>O nas</p>
-                   <p>Projekty</p>
-                   <p>Instalacja</p>
-                   <p>Kontakt</p>
-                 </div>
-                 
-                 <button>Obliczyć koszt</button>
-         
-                 <div class="wrapper-bottom">
-                 <a href="">Polityka prywatności</a>
-                  <a href="">Ochrona danych osobowych</a>
-                 </div>
-                </footer>
 
-</body>
+                <h2 class="info-list">Kontakt</h2>
+
+                  <p class="info-">Adres</p>
+                     <address class="information">Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
+ 
+                  <p class="info-">E-mail</p>
+                    <p><a class="information" href="dorotapawezka@gmail.com">dorotapawezka@gmail.com</a></p>
+                    
+                  <p class="info-">Telefon</p>
+                     <p class="info-telef"><a href="tel:+48695716531">+48695716531</a></p>
+
+                    <img class="image-maps" src="/photo/maps.png" alt="maps">
+
+                    <img class="image-pointer" src="/photo/gps.svg" alt="pointer">
+
+                    </section></main>       
+                    <footer class="page-footer">
+                      <div class="footer-wrapper footer-wrapper black">
+                        <a href="index.html" class="logo">
+                          <img src="photo/logo.png" height="34" width="131" alt="logo" />
+                        </a>
+                      </div>
+                      <nav class="foooter-navigation">
+                        <ul class="footer navigation-list">
+                          <li class="footer navigation-item">
+                           <a class="footer navigation-link current" href="#">Strona główna</a>
+                          </li>
+                          <li class="footer navigation-item">
+                           <a class="footer navigation-link" href="#">O nas</a>
+                          </li>
+                          <li class="footer navigation-item">
+                           <a class="footer navigation-link" href="#">Projekty</a>
+                          </li>
+                          <li class="footer navigation-item">
+                           <a class="footer navigation-link" href="#">Instalacja</a>
+                          </li>
+                          <li class="footer navigation-item">
+                           <a class="footer navigation-link" href="#">Kontakt</a>
+                          </li>
+                      </ul>
+                        </nav>
+                      
+                      <button class="footer-button">Oddzwoń</button>
+              
+                      <div class="wrapper-bottom">
+                      <a href="#" class="footer-link">Polityka prywatności</a>
+                       <a href="#" class="footer-link">Ochrona danych osobowych</a>
+                      </div>
+                    </footer>
+</body> 
 </html>
