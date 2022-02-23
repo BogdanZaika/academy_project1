@@ -2,67 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ul kit</title>
+    <title>Popups</title>
+    <link rel="shortcut icon" href="photo/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+<div>
+    <h2 class="top-text">Obliczyć koszt</h2>
 
-        <button>Obliczyć koszt</button>
+    <p class="middle-text">Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.</p>
+
+    <p class="price-text">42 200 kWh</p>
     
-       <button>Obliczyć koszt</button>
+    <p class="text-list">Roczne zużycie energii elektrycznej</p>
+    </div>
+    <div>
+    <label class="middle-text"> Strona świata
+      <input class="middle-text" type="text" placeholder="Wybierz z listy"
+      />
+     </label>
+    <label class="middle-text"> Materiał dachu
+      <input class="middle-text" type="text" placeholder="Wybierz z listy"
+      />
+     </label>
+  </div>
+  <div>
+   <button class="div button-link">Obliczyć</button>
+  </div>
+   <div class="div-main-bc">
+     <p class="div text-list">Przybliżony koszt:</p>
+        <p class="div top-text">40 000 zł</p>
+    <button class="button button-link">Przeliczyć</button>
+   </div>
+   <div>
+    <p class="top-text">Jakieś pytania?</p>
+    <p class="middle-text">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania</p>
 
-       <button>Przeliczyć</button>
+    <label class="middle-text">Twoje imię
+      <input class="middle-text" type="text" placeholder="Wprowadź swoje imię"
+    />
+   </label>
 
-       <button>Przeliczyć</button>
+    <label class="middle-text">E-mai
+      <input class="middle-text" type="text" placeholder="Wprowadź mail"
+    />
+   </label>
+
+    <label class="middle-text">Telefon
+      <input class="middle-text" type="text" placeholder="Wprowadź telefon"
+    />
+  </label>
+
+  <button class="main-button-link">Wysłać prośbę</button>
+
+  </div>
+  <div class="main-list">
+    <img src="photo/galohka.svg" alt="galka">
+    <h2 class="top-text-top">Dziękuję za twoją prośbę</h2>
+    <p class="middle-text">Nasz menedżer wkrótce się z Tobą skontaktuje</p>
+
+    <button class="button button-link">Ok</button>
+  </div>
+
+   <div>
+     <h2 class="top-text">Oddzwoń</h2>
+     <p class="middle-text">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
+     <label class="middle-text">Twoje imię
+       <input class="middle-text" type="text" placeholder="Wprowadź swoje imię"
+       />
+      </label>
+
+      <label class="middle-text">Telefon<input class="middle-text" type="text" placeholder="Wprowadź telefon"
+      /> 
+    </label>
     
-    </header>
-
-    <main>
-        <div>
-        <label>
-            <input type="text" placeholder="Wprowadź swoje imię"
-            />
-           </label>
-     
-           <label>
-            <input type="text" placeholder="Wprowadź swoje imię"/>
-           </label>
-
-           <label>
-            <input type="text" placeholder="Tomac"
-            />
-          </label>
-
-            <label>
-             <input type="text" placeholder="Tomac"
-             />
-             </label>
-
-            <label>
-              <input type="text" placeholder="Wybierz z listy"
-              />
-              </label>
-
-            <label>
-              <input type="text" placeholder="Wybierz z listy"
-              />
-              </label>
-              
-            <form action="select1.php" method="post">
-            <p><select size="3" multiple name="Wybor">
-               <option value="Wybierz z listy">Wybierz z listy</option>
-               <option selected value="Południowy">Południowy</option>
-               <option value="Wschodni">Wschodni</option>
-               <option value="Zachodni">Zachodni</optioN>
-             </select></p>
-            </form>
-
-        </div>
-        
-        <p>Istnieją trzy główne typy paneli słonecznych: monokrystaliczne <br>
-           krzemowe panele słoneczne, polikrystaliczne krzemowe panele <br>
-           słoneczne i cienkowarstwowe ogniwa słoneczne. Istnieją trzy główne <br>
-            typy paneli słonecznych: monokrystaliczne krzemowe panele.</p>
-    </main>
-</body>
+    <button class="main-button-link">Zadzwoń</button>
+    </div>
+    </body>
 </html>
